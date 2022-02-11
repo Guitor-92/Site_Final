@@ -1,0 +1,55 @@
+<!doctype html>
+<html LANG="PT-BR">
+<HEAD>
+    <META CHARSET="UTF-8">
+    <TITLE>CODE - Contato</TITLE>
+    <link rel="STYLESHEET" type="TEXT/CSS" href="CSS/FOLHADEESTILO.CSS" 
+</HEAD>
+
+<body class="color-page">
+    <div class="conteiner-principal" id="topo"> 
+        <HEader>
+            <div class="LOGO">
+                <A href="INDEX.HTML">
+                    <IMg src="IMAGENS/logo.png" alt="LOGO SITE">
+                </A>
+            </div>
+
+            <NAV>
+                <ul>
+                    <LI><a href="INDEX.HTML">HOME</a></LI>
+                    <LI><a href="clientes.html">CLIENTES</a></LI>
+                    <LI><a href="sobre.html">SOBRE</a></LI>
+                    <LI><a href="#topo">CONTATO</a></LI>
+                </ul>
+            </NAV>
+        </HEader>
+
+        <div class="img-titulo"><img src="imagens/contato.png" alt="imagem de contato"></div>
+
+    <section id="txt-contato">
+        <form name="meu_form" id="meu_form">
+            <p class="nome">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nomeid" placeholder="Ex: Nome completo" required="required" name="nome" />
+
+            </p>
+            <p class="fone">
+                <label for="fone">Fone:</label><br>
+                <input type="phone" id="foneid" placeholder="(xx) xxxxx-xxxx" name="fone" />
+
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" required="required" />
+            </p>
+            <p>
+                <textarea placeholder="mensagem" required="required" ></textarea>
+            </p>
+            <button type="submit" form="meu_form">Enviar</button>
+        </form>
+    </section>
+
+    </div>
+</body>
+</html>
