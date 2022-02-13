@@ -119,3 +119,8 @@ pointer-events: auto;
 #txt-contato form textarea {max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%; min-height: 100px;}
 
 #txt-contato form button {width: 30%; height: auto; cursor: pointer; background-color: #b50909; color: #fff; font-size: 1.5em; padding: 15px 0 15px 0; margin-left: 35%; margin-top: 1%;}
+
+#txt-contato #conta-data{ width: 26%; position: relative; float: left; padding: 2%; background-color: #b50909; color: #fff; top: 5%; margin-left: 1.5%; height: 400px; text-align: center;}
+#txt-contato #conta-data h3 {color: #fff; text-align: center;}
+#txt-contato #conta-data h5 {margin-top: 6%; margin-bottom: 4%; vertical-align: middle;}
+#txt-contato #conta-data h5 img {width: 15%;}
